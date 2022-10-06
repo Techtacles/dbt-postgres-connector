@@ -1,0 +1,16 @@
+# version: 2
+# sources:
+#   - name: our_source 
+#   tables:
+#     - name: orders
+#     - name: customers
+
+version: 2
+
+sources:
+  - name: our_source
+    schema: public
+    tables:
+      - name: orders  # enabled
+      - name: customers  # not enabled
+        

@@ -1,0 +1,1 @@
+create view sec_cus as select * from customers where id=2

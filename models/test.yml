@@ -1,0 +1,25 @@
+version: 2
+models:
+  - name: customer_cte
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+
+  # - name: orders_cte
+  #   columns: 
+  #     - name: order_id
+  #       tests:
+  #         - unique
+  #         - not_null
+  #     - name: order_name
+  #       tests:
+  #         - accepted_values:
+  #             values:
+  #               - Rice
+  #               - Beans
+  #               - Spag
+  #               - Pizza
+  #               - Shawarma
+  #               - Egg
